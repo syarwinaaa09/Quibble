@@ -1,46 +1,58 @@
-# Getting Started with Create React App and Redux
+# Quibble
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+![quibble-high-resolution-logo-transparent](https://github.com/syarwinaaa09/Quibble/assets/114587158/ae674b66-88b9-444e-a917-b41bb856e84c)
 
-## Available Scripts
+Welcome to Quibble, a project aime at building SLACK 2.0, a React.js clone with additional features such as Redux, Styled Components and the latest Firebase Hooks functionality. 
 
-In the project directory, you can run:
+### Introduction
+Quibble is a React.js project focused on building a modern version of the SLACK application. 
+By incorporating Redux for state management, Styled Components for styling and Firebase Hooks for seamless integration with Firebase services, I am to provide a comprehensive and efficient development experience.
 
-### `npm start`
+### Features
+* SLACK 2.0 UI: Replicating the user interface of SLACK for a familiar and user-friendly experience.
+* Redux Integration: State management using Redux for a robust and scalable application.
+* Styled Components: Styling components with Styled Components to enhance maintainability and reusability.
+* Firebase Hooks: Leveraging the latest Firebase Hooks functionality for seamless integration with Firebase services, enabling real-time updates and data synchronisation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Technologies Used
+* React.js
+* Redux
+* Styled Components
+* Firebase Hooks
+* Firebase (Firestore, Authentication, Realtime Database, etc.)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Getting Started
+To get started with Quibble, follow these steps:
+1. Clone the repository:
+```
+git clone https://github.com/syarwinaaa09/quibble.git
+```
+2. Install dependencies:
+```
+cd quibble
+npm install
+```
+3. Set up Firebase:
+  * Create a Firebase project on the Firebase Console.
+  * Obtain your Firebase configuration and replace the placeholder values in the project.
+4. Run the application:
+```
+npm start
+```
+5. Open your browser and navigate to `http://localhost:3000` to view Quibble.
 
-### `npm test`
+### Project Structure
+The project structure is organised for clarity and maintainability. Key directories include:
+* `src`: Contains the source code of the React application.
+* `src/components`: Reusable React components.
+* `src/styles`: Styled components for styling the application.
+* `src/redux`: Redux-related files for state management.
+* `src/firebase`: Firebase configuration and hooks.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Contributing
+Contributions are welcome! Please follow the contribution guidelines before submitting pull requests.
 
-### `npm run build`
+### License
+This project is licensed under the MIT License.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to reach out if you have any questions or feedback. Happy coding!
